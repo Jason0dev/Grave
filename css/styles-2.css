@@ -1,0 +1,284 @@
+/* This css is for all html files (index.html does not apply) */
+
+
+body, html {
+  font-family: 'Raleway' , sans-serif;
+}
+
+
+                /* ========== HEADER NAV ========== */
+
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.navbar ul li{
+    float: left;
+    font-family: 'Raleway' , sans-serif
+}
+
+.navbar .login ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar ul li a{
+    display: block;
+    color: #808080;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: white;
+}
+
+
+                /* ========== Content ========== */
+
+/* == ABOUT == */
+#aboutHero {
+    background-image: url("../img/about.jpg"); center no-repeat
+    width: 100%;
+    height: 400px;
+}
+
+
+/* == BLOG == */
+#blogHero {
+    background-image: url("../img/letters.jpg"); center no-repeat
+    width: 100%;
+    height: 400px;
+}
+
+/* == CONTACT == */
+#contactHero {
+    background-image: url(../img/contact.jpg); center no-repeat
+    width: 100%;
+    height: 400px;
+}
+
+/* == FAQ == */
+#faqHero {
+    background-image: url(../img/faq.jpg); center no-repeat
+    width: 100%;
+    height: 400px;
+}
+
+
+                /* ========== TEXT ========== */
+                /* ========== ABOUT ========== */
+
+
+#aboutText {
+    font-family: 'Raleway' , sans-serif;
+}
+
+
+#aboutText h1, #aboutText h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 170%
+
+}
+
+
+#aboutText h3 {
+    padding-left: 1%;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+
+#howP {
+    font-size: 1em;
+    padding-left: 1%;
+}
+
+
+#aboutText h4, #nickyP {
+    position: relative;
+}
+
+
+#aboutText h4 {
+    left: 15%;
+    font-weight: 600;
+}
+
+
+#aboutText #nickyP {
+    text-align: left;
+    left: 15%;
+    width: 50%;
+    padding-left: 15%
+}
+
+
+#aboutText img {
+    position:relative;
+    left: 12%;
+    padding-top: .5%;
+    float: left;
+}
+
+
+                /* ========== FAQ ========== */
+
+
+
+ #faqText h1 {
+   text-align: center;
+   font-weight: 500;
+ }
+
+
+ #faqText h2 {
+   padding-left: 1%;
+   font-weight: 500;
+ }
+
+
+ #faqText p {
+   padding-left: 1%;
+   padding-bottom: 15%;
+ }
+
+
+
+                /* ========== CONTACT ========== */
+
+
+
+#contactText h1 , h2 {
+  text-align: center;
+  font-family: 'Raleway' , sans-serif;
+  font-weight: lighter;
+}
+
+
+#contactRow1 , #contactRow2 , #contactRow3 {
+  text-align: center;
+}
+
+
+#contactRow1 , #contactRow2 {
+  padding: 3%;
+}
+
+#contactRow1 form input , #contactRow2 form input {
+  text-align: center;
+  border-style:solid;
+  border-width: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+#contactRow3 form input {
+  text-align: center;
+  border-style: solid;
+  border-width: 1.5px;
+}
+
+#contactRow3 {
+  margin: 0 0 4em 0;
+  padding: 0;
+}
+
+#contactRow3 form input {
+  width: 50em;
+  height: 20em;
+}
+
+                /* ========== BLOG ========== */
+
+
+#blogBox {
+  border-style: solid;
+  margin: 2em 2em 5em 2em;
+  padding: .5em .5em 5em .5em;
+
+}
+
+#blogh1 {
+  text-align: center;
+}
+
+#blogImage {
+  float: left;
+  margin: 0 2em 0 0;
+  padding: 0;
+}
+
+#blogText {
+  margin: 0;
+  padding: 0;
+}
+
+#blogText h3 {
+  margin-left: 0;
+  padding: 0;
+
+}
+
+#blogText p {
+  margin: 3em;
+  padding: 0;
+
+}
+
+#blogRow h3 {
+  margin: 0;
+  padding: 0;
+  float: left;
+  text-indent: 1em;
+}
+
+#line hr {
+  margin: 3em 0 0 15em;
+  padding: 0;
+  width: 1;
+}
+
+
+
+
+                /* ========== FOOTER ========== */
+
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: black;
+    opacity: 0.8;
+}
+
+footer ul li {
+    float: left;
+    font-family: 'Raleway' , sans-serif;
+}
+
+footer ul li a,
+footer ul  li {
+    display: block;
+    color: #808080;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: white;
+}
